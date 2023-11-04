@@ -40,3 +40,41 @@ for (let i = 0; i < marks.length; i++) {
     total += marks[i];
 }
 console.log('total: ',total);
+
+//---------------------------------------------
+
+//enum type
+enum Color { RED, GREEN, BLUE };
+
+let color: Color = 1;
+console.log('color: ',color);
+
+switch (color) {
+    case Color.RED:
+        console.log('You selected Red Color');
+        break;
+    case Color.GREEN:
+        console.log('You selected Green Color');
+        break;
+    case Color.BLUE:
+        console.log('You selected Blue Color');
+        break;
+    default:
+        console.log('Invalid Color');
+        break;
+
+}
+
+//---------------------------------------------
+
+//any type
+let randomData: any;
+randomData = 10;
+
+console.log('randomData: ',randomData);
+
+randomData = 'Kamal';
+console.log('randomData: ',randomData);
+
+randomData = true;
+console.log('randomData: ',randomData);
