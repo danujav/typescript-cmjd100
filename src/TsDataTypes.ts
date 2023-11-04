@@ -1,3 +1,4 @@
+//---------------------------------------------
 
 //string type
 let fName: string = "John";
@@ -9,6 +10,9 @@ console.log(fName);
 let newName: string = fName.toUpperCase();
 console.log('new name: ',newName);
 
+//---------------------------------------------
+
+
 //number type
 let mark: number = 100;
 mark = 100.5;
@@ -16,6 +20,8 @@ mark = 100.5;
 console.log('mark: ',mark);
 //type safety
 // mark = 'Kamal'; //error
+
+//---------------------------------------------
 
 //boolean type
 let isValid: boolean = 10 > 5;
@@ -26,6 +32,8 @@ console.log('isValid: ',isValid);
 
 //type-safety
 // isValid = 10;  //error
+
+//---------------------------------------------
 
 //array type
 let marks: number[];
